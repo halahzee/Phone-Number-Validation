@@ -1,0 +1,20 @@
+{
+  "name": "validationphonenumber",
+  "version": "1.0.0",
+  "description": "validate phone number test",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "Halah",
+  "license": "ISC"
+}
